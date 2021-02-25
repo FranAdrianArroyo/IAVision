@@ -1,0 +1,112 @@
+h1{
+	color: #700CA2;
+	font-family: Monaco;
+	border-color: white;
+	font-size: 56px;
+}
+h1:hover{
+	background-color: #E0C6ED;
+}
+
+label{
+	color: white;
+	font-size: 22px;
+	font-family: "Pecita", Helvetica, Verdana;
+}
+
+body{
+	background: white url(images/fondo3.gif);
+}
+
+#contenido{
+	background-color: gray;
+	text-align: center;
+	margin-top: 50px;
+	opacity: .85;
+	height: 570px;
+}
+#contenido_ent{
+	background-color: gray;
+	text-align: center;
+	margin-top: 50px;
+	opacity: .85;
+	height: 720px;
+}
+#contenido_ing{
+	background-color: gray;
+	text-align: center;
+	margin-top: 50px;
+	opacity: .85;
+	height: 560px;
+}
+
+#imagen{
+	width: 310px;
+	height: 260px;
+}
+
+#camara{
+	width: 340px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 60PX;
+	cursor: pointer;
+}
+#camara_ing{
+	width: 340px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 60PX;
+	cursor: pointer;
+}
+#camara_ing:hover{
+	background-color: white;
+	opacity: .60;
+}
+#salir{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	float: right;
+	margin-right: 30px;
+	margin-top: 25px;
+}
+
+.BotonEntrenar{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin-top: 20px;
+	width: 250px;
+	height: 40px;
+
+	color: white;
+	background: transparent;
+	border: 5px solid #700CA2;
+	border-radius: 6px;
+
+	cursor: pointer;
+}
+.BotonEntrenar:hover{
+	background-color: #700CA2;
+  color: white;
+}
+
+.guardaCarga{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin-top: 20px;
+	width: 250px;
+	height: 40px;
+
+	color: white;
+	background: transparent;
+	border: 5px solid #700CA2;
+	border-radius: 6px;
+
+	cursor: pointer;
+}
+
+.guardaCarga:hover{
+	background-color: #700CA2;
+  color: white;
+}
